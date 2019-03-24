@@ -16,6 +16,16 @@
   <!-- Custom styles for this template -->
   <link href="{{ asset('MainTheme/css/scrolling-nav.css" rel="stylesheet') }}">
 
+  <!-- Datatables -->
+
+
+    <link rel="stylesheet" href="{{ asset('MainTheme/vendors/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('MainTheme/vendors/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}">
+
+    <!-- ------------------------------------------------------------------------------- -->
+
+
 </head>
 
 <body id="page-top">
@@ -53,12 +63,6 @@
 
  
 
-
-
-
-
-
-
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -77,6 +81,21 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="{{ asset('MainTheme/js/scrolling-nav.js') }}"></script>
+
+   <!-- Data Table-->
+
+    <script src="{{ asset('MainTheme/vendors/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-buttons/js/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/jszip/dist/jszip.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/pdfmake/build/pdfmake.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/pdfmake/build/vfs_fonts.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-buttons/js/buttons.html5.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-buttons/js/buttons.print.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/vendors/datatables.net-buttons/js/buttons.colVis.min.js') }}"></script>
+    <script src="{{ asset('MainTheme/assets/js/init-scripts/data-table/datatables-init.js') }}"></script>
+
 
 </body>
 
