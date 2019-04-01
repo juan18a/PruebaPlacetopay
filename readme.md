@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Prueba de Integración Placetopay realizado bajo el Framework Laravel
+## Integración Placetopay realizado bajo el Framework Laravel
 
-Buenas realice unos ligeros cambios en la libreria sugerida en documentación, quiero con muchas ansias pertencer a su equipo.
+Integrando Laravel con Placetopay Gateway.
 
 ## About Laravel
 
